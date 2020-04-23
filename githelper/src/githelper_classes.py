@@ -6,27 +6,32 @@
 
 # Class with constants to style output for terminal due to ans
 # ansi escape code
-class TextStyle(self):
+class TextStyle:
+    def __init__(self):
+        pass
+    # Style elements
+    LINE = "==========================="
+    STARS = "***************************"
     # Text decoration
-    self.BOLD = '\001b[1m'
-    self.UNDERLINE = '\u001b[4m0'
-    self.REVERSED = '\u001b[7m'
+    BOLD = '\u001b[1m'
+    UNDERLINE = '\u001b[4m'
+    REVERSED = '\u001b[7m'
     # Font colors
-    self.BLACK = '\u001b[30m'
-    self.RED = '\u001b[31m'
-    self.GREEN = '\u001b[32m'
-    self.YELLOW = '\u001b[33m'
-    self.BLUE = '\u001b[34m'
-    self.MAGENTA = '\u001b[35m'
-    self.CYAN = '\u001b[36m'
-    self.WHITE = '\u001b[37m'
-    self.RESET = '\u001b[0m'
+    BLACK = '\u001b[30m'
+    RED = '\u001b[31m'
+    GREEN = '\u001b[32m'
+    YELLOW = '\u001b[33m'
+    BLUE = '\u001b[34m'
+    MAGENTA = '\u001b[35m'
+    CYAN = '\u001b[36m'
+    WHITE = '\u001b[37m'
+    RESET = '\u001b[0m'
     # Background colors
-    self.BG_BlACK = '\u001b[40m'
-    self.BG_RED = '\u001b[41m'
-    self.BG_GREEN = '\u001b[42m'
-    self.BG_YELLOW = '\u001b[43m'
-    self.BG_BLUE = '\u001b[44m'
-    self.BG_MAGENTA = '\u001b[45m'
-    self.BG_CYAN = '\u001b[46m'
-    self.BG_WHITE = '\u001b[47m'
+    BG_BlACK = '\u001b[40m'
+    BG_RED = '\u001b[41m'
+    BG_GREEN = '\u001b[42m'
+    BG_YELLOW = '\u001b[43m'
+    BG_BLUE = '\u001b[44m'
+    BG_MAGENTA = '\u001b[45m'
+    BG_CYAN = '\u001b[46m'
+    BG_WHITE = '\u001b[47m'
