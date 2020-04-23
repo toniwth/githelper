@@ -25,3 +25,8 @@ class TextStyle(self):
     self.BG_BlACK = '\u001b[40m'
     self.BG_RED = '\u001b[41m'
     self.BG_GREEN = '\u001b[42m'
+    self.BG_YELLOW = '\u001b[43m'
+    self.BG_BLUE = '\u001b[44m'
+    self.BG_MAGENTA = '\u001b[45m'
+    self.BG_CYAN = '\u001b[46m'
+    self.BG_WHITE = '\u001b[47m'
